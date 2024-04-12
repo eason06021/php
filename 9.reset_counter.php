@@ -6,4 +6,5 @@
 
 ?>
 
-可嘗試把session_start():註解，比較有何不同
+unset($_SESSION['變數'])
+session_unset() 或者session_destroy()也可以達成同樣功能
